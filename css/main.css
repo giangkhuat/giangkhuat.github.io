@@ -13,7 +13,9 @@ html {
 	height: 100%;
 }
  body {
-	background: url(https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	background: #654ea3;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-size: cover;
 	background-position: center;
 	font-family: 'Nanum Myeongjo', serif;
@@ -30,4 +32,25 @@ hr {
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+
+
+.panel-default > .panel-heading {
+	background-color: #4C4C4C;
+	color: white;
+	font-size: 20px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.panel-body {
+	background: #FFFFFF;
+	color: #191919;
+	font-size: 20;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+
 
