@@ -34,13 +34,15 @@
 }
  #header {
      color: black;
-     background: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
-     background-size: cover;
+     /*
+      background: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+     */
+      background: none;
+      background-size: cover;
 }
  .card-header {
      color: black;
      text-align: center;
      padding-top: 15px;
-     text-transform: uppercase;
 }
  
