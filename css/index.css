@@ -7,12 +7,7 @@
      height: 100%;
 }
  body {
-     background: #C6FFDD;
-    /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
-    /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
      background-size: cover;
      background-position: center;
      font-family: 'Nanum Myeongjo', serif;
@@ -33,10 +28,8 @@
      box-shadow: 0 10px 10px 0 rgba(0,0,0,0.3);
 }
  #header {
-     color: black;
-     /*
+      color: black;  
       background: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
-     */
       background-size: cover;
       background: none;
 }
