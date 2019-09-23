@@ -6,8 +6,7 @@
  html {
      height: 100%;
 }
- body {
-      
+ body { 
      background-size: cover;
      background-position: center;
      font-family: 'Nanum Myeongjo', serif;
@@ -31,7 +30,6 @@
       color: black;  
       background: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
       background-size: cover;
-      background: none;
 }
  .card-header {
      color: black;
