@@ -1,0 +1,80 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#content {
+	text-align: center;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+    padding-bottom: 5%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0,2);
+}
+
+html {
+	height: 100%;
+}
+body {
+	background: #ffe7eb;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	font-family: 'Nanum Myeongjo', serif;
+	color: white;
+}
+
+ #mainNav .nav-link:hover {
+    color: #fbd786;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.banner {
+	margin: auto;
+	padding-top: 50px;
+	text-align: center;
+	justify-content: center;
+	background: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+	background-size: cover;
+	color: black;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0,2);
+}
+
+.img-fluid {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.3);
+}
+
+@media (max-width: 650px) {
+	#content p {
+		font-size: 0.8rem;
+	}
+}
+
+
+.blurb {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#header {
+      color: black;  
+     background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      
+
+      background-size: cover;
+}
